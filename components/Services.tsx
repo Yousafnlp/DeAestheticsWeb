@@ -19,7 +19,7 @@ const services = [
   {
     icon: <Zap className="h-8 w-8" />,
     title: "Laser Hair Removal",
-    description: "Permanent hair reduction using advanced laser technology",
+    description: "Permanent hair reduction using treatment",
     gradient: "from-purple-400 to-pink-600",
   },
   {
@@ -89,11 +89,18 @@ export function Services() {
     <section id="services" className="py-20 bg-gradient-to-b from-white to-gray-100">
       <div className="container px-4 md:px-6">
         <div className="text-center space-y-4 mb-12">
-          <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-[#005a5f] to-teal-500">
+          <div>
+
+        <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-[#005a5f] to-teal-500">
             Our Services
-          </h2>
+          </h2> 
+          <h3 className="text-2xl font-semibold tracking-tighter md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-[#005a5f] to-teal-500">
+   
+          Skin | hair | Laser
+          </h3>
+          </div>
           <p className="mx-auto max-w-[700px] text-gray-600 md:text-xl/relaxed">
-            Comprehensive beauty and wellness treatments tailored to your needs
+            Comprehensive skin treatments tailored to your needs
           </p>
         </div>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

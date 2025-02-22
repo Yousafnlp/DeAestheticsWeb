@@ -43,8 +43,8 @@ export function SocialProof() {
     <section className="py-20 bg-gradient-to-b from-white to-gray-50">
       <div className="container px-4 md:px-6">
         <div className="text-center space-y-4 mb-12">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            Join Our <span className="text-[#005a5f]">100+ Satisfied Clients</span>
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-[#005a5f] leading-7">
+ Satisfied Clients Nationwide!
           </h2>
           <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed">
             Experience the DeAesthetics difference and see why our clients love us
@@ -54,7 +54,7 @@ export function SocialProof() {
         {/* Instagram Logo */}
         <div className="mb-16 text-center">
           <a
-            href="https://www.instagram.com/deaesthetics"
+            href="https://www.instagram.com/d.aesthetics.pk/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block"
@@ -71,40 +71,6 @@ export function SocialProof() {
           <p className="text-gray-500">@deaesthetics</p>
         </div>
 
-        {/* Testimonials Carousel */}
-        <Carousel
-          opts={{
-            align: "start",
-            loop: true,
-          }}
-          plugins={[
-            Autoplay({
-              delay: 5000,
-            }),
-          ]}
-          className="w-full max-w-4xl mx-auto"
-        >
-          <CarouselContent>
-            {testimonials.map((testimonial, index) => (
-              <CarouselItem key={testimonial.id}>
-                <div className="p-1">
-                  <div className="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 p-1 rounded-xl">
-                    <div className="bg-white p-6 rounded-lg shadow-xl">
-                      <div className="flex justify-center mb-4">
-                        {[...Array(testimonial.rating)].map((_, i) => (
-                          <Star key={i} className="w-6 h-6 fill-yellow-400 text-yellow-400" />
-                        ))}
-                      </div>
-                      <p className="text-xl text-gray-700 mb-6">"{testimonial.comment}"</p>
-                      <p className="font-semibold text-lg text-[#005a5f]">{testimonial.name}</p>
-                    </div>
-                  </div>
-                </div>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-        </Carousel>
-
         {/* Call to Action */}
         <div className="mt-16 text-center">
           <motion.div
@@ -113,7 +79,7 @@ export function SocialProof() {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold mb-4">Ready to Experience the DeAesthetics Difference?</h3>
+            <h3 className="text-2xl font-bold mb-4  text-[#005a5f] leading-7">Ready to Experience the DeAesthetics Difference?</h3>
             <p className="text-gray-600 mb-6">
               Join our community of satisfied clients and transform your beauty routine today!
             </p>

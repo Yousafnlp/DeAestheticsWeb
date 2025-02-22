@@ -21,7 +21,7 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="text-center space-y-4 mb-12">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Visit Our Spa</h2>
-              <p className="mx-auto max-w-[700px] text-white/80 md:text-xl/relaxed">Located in the heart of the city</p>
+              <p className="mx-auto max-w-[700px] text-white/80 md:text-xl/relaxed">Located in the heart Lahore</p>
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
               <iframe
@@ -42,17 +42,9 @@ export default function Home() {
 
       <footer className="border-t border-white/10 py-6 md:py-0">
         <div className="container flex flex-col gap-4 md:h-24 md:flex-row md:items-center">
-          <div className="flex flex-1 items-center justify-center md:justify-start gap-4 text-sm">
-            <span className="text-white/80">© 2024 DeAesthetics. All rights reserved.</span>
+          <div className="flex flex-1 items-center justify-center gap-4 text-sm">
+            <span className="text-white/80">© 2025 DeAesthetics. All rights reserved.</span>
           </div>
-          <nav className="flex items-center justify-center gap-4 text-sm">
-            <a href="#" className="text-white/80 hover:text-white">
-              Privacy Policy
-            </a>
-            <a href="#" className="text-white/80 hover:text-white">
-              Terms of Service
-            </a>
-          </nav>
         </div>
       </footer>
 
