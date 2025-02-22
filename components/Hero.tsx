@@ -24,7 +24,7 @@ export function Hero() {
 
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none leading-8
             ">
-              Experience Luxury Skincare at DeAesthetics
+              Experience Luxury Skincare at D.Aesthetics
             </h1>
             <p className="max-w-[600px] font-extrabold text-white md:text-xl mt-1">
 

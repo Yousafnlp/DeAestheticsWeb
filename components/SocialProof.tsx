@@ -9,7 +9,7 @@ const testimonials = [
   {
     id: 1,
     name: "Sarah Johnson",
-    comment: "DeAesthetics transformed my skin! Their HydraFacial treatment gave me a glow I've never had before.",
+    comment: "D.Aesthetics transformed my skin! Their HydraFacial treatment gave me a glow I've never had before.",
     rating: 5,
   },
   {
@@ -21,13 +21,13 @@ const testimonials = [
   {
     id: 3,
     name: "Emily Rodriguez",
-    comment: "I've tried many spas, but DeAesthetics is by far the best. Their anti-aging treatments are miraculous!",
+    comment: "I've tried many spas, but D.Aesthetics is by far the best. Their anti-aging treatments are miraculous!",
     rating: 5,
   },
   {
     id: 4,
     name: "David Thompson",
-    comment: "The body contouring treatment at DeAesthetics exceeded my expectations. I'm thrilled with the results!",
+    comment: "The body contouring treatment at D.Aesthetics exceeded my expectations. I'm thrilled with the results!",
     rating: 5,
   },
   {
@@ -47,7 +47,7 @@ export function SocialProof() {
  Satisfied Clients Nationwide!
           </h2>
           <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed">
-            Experience the DeAesthetics difference and see why our clients love us
+            Experience the D.Aesthetics difference and see why our clients love us
           </p>
         </div>
 
@@ -79,7 +79,7 @@ export function SocialProof() {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold mb-4  text-[#005a5f] leading-7">Ready to Experience the DeAesthetics Difference?</h3>
+            <h3 className="text-2xl font-bold mb-4  text-[#005a5f] leading-7">Ready to Experience the D.Aesthetics Difference?</h3>
             <p className="text-gray-600 mb-6">
               Join our community of satisfied clients and transform your beauty routine today!
             </p>

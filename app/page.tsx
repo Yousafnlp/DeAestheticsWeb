@@ -43,7 +43,7 @@ export default function Home() {
       <footer className="border-t border-white/10 py-6 md:py-0">
         <div className="container flex flex-col gap-4 md:h-24 md:flex-row md:items-center">
           <div className="flex flex-1 items-center justify-center gap-4 text-sm">
-            <span className="text-white/80">© 2025 DeAesthetics. All rights reserved.</span>
+            <span className="text-white/80">© 2025 D.Aesthetics. All rights reserved.</span>
           </div>
         </div>
       </footer>

@@ -10,8 +10,8 @@ const fontSans = FontSans({
 })
 
 export const metadata: Metadata = {
-  title: "DeAesthetics - Premium Beauty Training Academy",
-  description: "Professional beauty training courses and services by DeAesthetics Training Academy",
+  title: "D.Aesthetics - Premium Beauty Training Academy",
+  description: "Professional beauty training courses and services by D.Aesthetics Training Academy",
     generator: 'v0.dev'
 }
 
