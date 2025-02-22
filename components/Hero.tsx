@@ -11,7 +11,7 @@ export function Hero() {
           alt="HydraFacial Treatment"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-[#005a5f]/80 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-[#005a5f]/60 mix-blend-multiply" />
       </div>
       <div className="container relative px-4 md:px-6">
         <motion.div
