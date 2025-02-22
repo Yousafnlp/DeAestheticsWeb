@@ -65,7 +65,7 @@ export default function Home() {
           },
         }}
       >
-        <WhatsApp size={24} />
+        <WhatsApp size={26} />
       </motion.a>
     </div>
   )
