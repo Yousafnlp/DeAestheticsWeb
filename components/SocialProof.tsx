@@ -68,7 +68,7 @@ export function SocialProof() {
             </motion.div>
           </a>
           <p className="mt-4 text-lg font-semibold text-gray-700">Follow Us on Instagram</p>
-          <p className="text-gray-500">@deaesthetics</p>
+          <p className="text-gray-500">@d.aesthetics.pk</p>
         </div>
 
         {/* Call to Action */}
