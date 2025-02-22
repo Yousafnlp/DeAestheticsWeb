@@ -1,42 +1,8 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Instagram, Star } from "lucide-react"
-import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel"
-import Autoplay from "embla-carousel-autoplay"
-
-const testimonials = [
-  {
-    id: 1,
-    name: "Sarah Johnson",
-    comment: "D.Aesthetics transformed my skin! Their HydraFacial treatment gave me a glow I've never had before.",
-    rating: 5,
-  },
-  {
-    id: 2,
-    name: "Michael Chen",
-    comment: "The laser hair removal service here is top-notch. Professional staff and amazing results!",
-    rating: 5,
-  },
-  {
-    id: 3,
-    name: "Emily Rodriguez",
-    comment: "I've tried many spas, but D.Aesthetics is by far the best. Their anti-aging treatments are miraculous!",
-    rating: 5,
-  },
-  {
-    id: 4,
-    name: "David Thompson",
-    comment: "The body contouring treatment at D.Aesthetics exceeded my expectations. I'm thrilled with the results!",
-    rating: 5,
-  },
-  {
-    id: 5,
-    name: "Sophia Lee",
-    comment: "Their skincare products are amazing. My complexion has never looked better!",
-    rating: 5,
-  },
-]
+import { Instagram } from "lucide-react"
+import Link from "next/link"
 
 export function SocialProof() {
   return (
@@ -83,12 +49,15 @@ export function SocialProof() {
             <p className="text-gray-600 mb-6">
               Join our community of satisfied clients and transform your beauty routine today!
             </p>
-            <a
-              href="#"
-              className="inline-block bg-[#005a5f] text-white font-semibold py-3 px-6 rounded-full hover:bg-[#004a4f] transition-colors duration-300"
+            <Link
+
+           className="bg-white text-[#005a5f] hover:bg-white/90  h-10 px-4 py-2 inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0" 
+           href="https://wa.me/923083694455"
+           target="_blank"
             >
+                 
               Book Your Appointment
-            </a>
+            </Link>
           </motion.div>
         </div>
       </div>

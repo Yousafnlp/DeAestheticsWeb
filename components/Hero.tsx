@@ -1,6 +1,6 @@
 "use client"
 import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export function Hero() {
   return (
@@ -35,7 +35,10 @@ export function Hero() {
             Premium HydraFacial treatments and advanced skincare solutions for radiant, healthy skin.
           </p>
           <div className="flex flex-col gap-2 min-[400px]:flex-row">
-            <Button className="bg-white text-[#005a5f] hover:bg-white/90">Book Treatment</Button>
+            <Link className="bg-white text-[#005a5f] hover:bg-white/90  h-10 px-4 py-2 inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0" 
+            target="_blank"
+        href="https://wa.me/923083694455"
+            >Book Treatment</Link>
           </div>
         </motion.div>
       </div>
