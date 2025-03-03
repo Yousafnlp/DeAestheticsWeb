@@ -24,15 +24,15 @@ export function Hero() {
 
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none leading-8
             ">
-              Experience Luxury Skincare at D.Aesthetics
+              One Step Solution
             </h1>
             <p className="max-w-[600px] font-extrabold text-white md:text-xl mt-1">
 
-              Skin | hair | Laser
+              Skin | hair | Laser | Mind | body | Soul
             </p>
           </div>
-          <p className="max-w-[600px] text-white/80 md:text-xl">
-            Premium HydraFacial treatments and advanced skincare solutions for radiant, healthy skin.
+          <p className="max-w-[600px] text-white/80 font-bold md:text-xl">
+          Holistic wellness: Mental health, nutrition, and advanced skincare.
           </p>
           <div className="flex flex-col gap-2 min-[400px]:flex-row">
             <Link className="bg-white text-[#005a5f] hover:bg-white/90  h-10 px-4 py-2 inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0" 

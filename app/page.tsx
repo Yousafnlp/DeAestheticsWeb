@@ -6,6 +6,7 @@ import { Hero } from "@/components/Hero"
 import { Services } from "@/components/Services"
 import { SocialProof } from "@/components/SocialProof"
 import { PhoneIcon as WhatsApp } from "lucide-react"
+import Location from "@/components/Location"
 
 export default function Home() {
   return (
@@ -16,26 +17,8 @@ export default function Home() {
         <Hero />
         <Services />
 
-        {/* Map Section */}
-        <section id="location" className="py-20">
-          <div className="container px-4 md:px-6">
-            <div className="text-center space-y-4 mb-12">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Visit Our Spa</h2>
-              <p className="mx-auto max-w-[700px] text-white/80 md:text-xl/relaxed">Located in the heart Lahore</p>
-            </div>
-            <div className="rounded-lg overflow-hidden shadow-lg">
-              <iframe
-               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10000!2d74.328522!3d31.534437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1700000000000" 
-               width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-          </div>
-        </section>
+    <Location/>
+
 
         <SocialProof />
       </main>
