@@ -29,10 +29,10 @@ import {
 
 const aestheticsServices = [
   {
-    icon: <Zap className="h-8 w-8" />,
-    title: "Laser Hair Removal",
-    description: "Permanent hair reduction using advanced technology",
-    gradient: "from-purple-400 to-pink-600",
+    icon: <Flask className="h-8 w-8" />,
+    title: "Advanced Treatments",
+    description: "PRP, Microneedling & Mesotherapy",
+    gradient: "from-cyan-400 to-blue-600",
   },
   {
     icon: <Syringe className="h-8 w-8" />,
@@ -70,11 +70,12 @@ const aestheticsServices = [
     description: "Skin Rejuvenation & Anti-aging treatments",
     gradient: "from-pink-400 to-rose-600",
   },
+
   {
-    icon: <Flask className="h-8 w-8" />,
-    title: "Advanced Treatments",
-    description: "PRP, Microneedling & Mesotherapy",
-    gradient: "from-cyan-400 to-blue-600",
+    icon: <Zap className="h-8 w-8" />,
+    title: "Laser Hair Removal",
+    description: "Permanent hair reduction",
+    gradient: "from-purple-400 to-pink-600",
   },
   {
     icon: <Scale className="h-8 w-8" />,
@@ -124,7 +125,7 @@ const nutritionServices = [
   {
     icon: <Dumbbell className="h-8 w-8" />,
     title: "Sports Nutrition",
-    description: "Specialized nutrition for athletes and fitness enthusiasts",
+    description: "Specialized nutrition for athletes",
     gradient: "from-blue-400 to-indigo-600",
   },
 ]
@@ -133,13 +134,13 @@ const mentalHealthServices = [
   {
     icon: <Brain className="h-8 w-8" />,
     title: "Cognitive Behavioral Therapy",
-    description: "Evidence-based treatment for various mental health issues",
+    description: "Treatment for various mental health issues",
     gradient: "from-purple-400 to-indigo-600",
   },
   {
     icon: <Smile className="h-8 w-8" />,
     title: "Mindfulness Training",
-    description: "Techniques for stress reduction and emotional regulation",
+    description: "Stress reduction and emotional regulation",
     gradient: "from-yellow-400 to-orange-600",
   },
   {
@@ -157,7 +158,7 @@ const mentalHealthServices = [
   {
     icon: <BookOpen className="h-8 w-8" />,
     title: "Mental Health Workshops",
-    description: "Educational sessions on various mental health topics",
+    description: "Educational sessions on mental health topics",
     gradient: "from-blue-400 to-cyan-600",
   },
 ]
@@ -184,17 +185,17 @@ function ServiceSection({ title, services, initialDisplayCount = 3 }: { title: s
               <Card className="h-full bg-white rounded-xl overflow-hidden">
                 <CardContent className="p-6">
                   <div className="relative z-10">
-                    <div className="mb-4 flex items-center justify-center">
+                    <div className="mb-4 flex items-center">
                       <div
                         className={`p-3 rounded-full bg-gradient-to-br ${service.gradient} text-white group-hover:scale-110 transition-transform duration-300`}
                       >
                         {service.icon}
                       </div>
                     </div>
-                    <h4 className="font-bold text-xl text-[#005a5f] group-hover:text-[#004a4f] transition-colors duration-300 text-center mb-2">
+                    <h4 className="font-bold text-xl text-[#005a5f] leading-5 group-hover:text-[#004a4f] transition-colors duration-300 mb-2">
                       {service.title}
                     </h4>
-                    <p className="text-gray-600 group-hover:text-gray-700 transition-colors duration-300 text-center">
+                    <p className="text-black leading-5">
                       {service.description}
                     </p>
                   </div>
@@ -209,7 +210,7 @@ function ServiceSection({ title, services, initialDisplayCount = 3 }: { title: s
           <Button
             onClick={() => setShowAll(!showAll)}
             variant="outline"
-            className="bg-[#005a5f] text-white hover:bg-[#004a4f]"
+            className="bg-[#005a5f] text-white hover:bg-white"
           >
             {showAll ? "Show Less" : "Show More"}
           </Button>

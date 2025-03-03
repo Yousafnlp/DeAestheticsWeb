@@ -5,7 +5,7 @@ export function Navbar() {
       <div className="px-4 md:px-6 flex h-16 items-center justify-between">
         <div className="flex sm:items-center flex-col sm:flex-row md:space-x-2">
           <span className="text-2xl font-bold">D.Aesthetics</span>
-          <span className="text-xs font-light">Skin | hair | Laser | Mind | body | Soul</span>
+          <span className="text-xs font-light"> Laser | Skin | Hair | Mind | Body | Soul</span>
         </div>
       </div>
     </header>
