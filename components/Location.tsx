@@ -7,7 +7,7 @@ const Location = () => {
       <section id="location" className='basis-full md:basis-6/12'>
         <div className="container px-4 md:px-6">
           <div className="text-center space-y-4 mb-6">
-            <p className="mx-auto max-w-[700px] font-bold text-white md:text-xl/relaxed">Located in the heart of Lahore</p>
+            <p className="mx-auto max-w-[700px] font-bold text-white  text-2xl">Located in the heart of Lahore</p>
           </div>
           <div className="rounded-lg overflow-hidden shadow-lg">
             <iframe
@@ -25,7 +25,7 @@ const Location = () => {
       <div className='basis-full md:basis-6/12'>
         <div className="container mt-8 md:mt-0 px-4 md:px-6">
           <div className="text-center space-y-4 mb-6">
-            <p className="mx-auto max-w-[700px] text-white text-xl font-bold md:text-2xl/relaxed">Located in the heart of Sialkot</p>
+            <p className="mx-auto max-w-[700px] text-white text-2xl font-bold">Located in the heart of Sialkot</p>
           </div>
           <div className="rounded-lg overflow-hidden shadow-lg">
             <iframe

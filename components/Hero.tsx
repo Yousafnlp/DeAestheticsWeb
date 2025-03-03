@@ -2,12 +2,11 @@
 
 import { motion } from "framer-motion"
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
 import { ChevronRight } from "lucide-react"
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative min-h-screen flex pt-20 md:pt-0 md:items-center  overflow-hidden">
       <div className="absolute inset-0">
         <img src="/cover.png" alt="Beauty Treatment" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#005a5f]/90 via-[#005a5f]/70 to-transparent" />
